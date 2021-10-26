@@ -1,3 +1,12 @@
 
-h1{ color:red}
-p{ color:green}
+
+/* ---------tarea 2-----------------------------------------
+-------------------------------------------------- */
+/* h1 {color: red;}
+p  {color: green}; */
+
+/* ----------tarea 3----------------------------------------
+-------------------------------------------------- */
+.lista-ordenada{ background-color:yellow;color: black;}
+.lista-no-ordenada{ background-color: black; color: white;}
+#texto personalizado{color: red;}

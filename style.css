@@ -11,12 +11,106 @@ p  {color: green}; */
 .lista-no-ordenada{ background-color: black; color: white;}
 #texto personalizado{color: red;} */
 
-/* ----------tarea 4----------------------------------------
+/* ----------tarea 4 tablas----------------------------------------
 -------------------------------------------------- */
 /* table, tr, td, th {
     border: 1px solid red;
     border-collapse: collapse;
     } */
+/* ----------tarea 6 caja----------------------------------------
+-------------------------------------------------- */
+/* p {
+  padding: 30px;
+  border: 2px solid #f00;
+  width: 500px;
+  height: 100px;
+  margin: 20px;
+}
+
+span {
+  border: 2px solid green;
+} */
+/* ----------tarea 7 fondos----------------------------------------
+-------------------------------------------------- */
+/* .primer-contenedor{               
+  width: 100%;
+  height: 50px;
+  background-color: #2f2f2f;
+      }
+.segundo-contenedor {
+  width: 100%;
+  height: 1000px;
+ background: url(fondoCSS.jfif) center/cover fixed;
+ }
+.tercer-contenedor{
+  width: 100%;
+  height: 400px;
+  background-color: #1c2742;
+  background-image: url("logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1 {color:white;
+  text-align: center;} */
+ /* ----------tarea 8 posicionamiento----------------------------------------
+-------------------------------------------------- */   
+.container{
+width: 400px;
+height: 300px;
+position: relative;
+background-color: cadetblue;
+} 
+.box{
+  width: 90px;
+  height: 90px;
+  background-color:sandybrown;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.box2{
+  width: 20px;
+  height: 20px;
+  background-color:black;
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.box3{
+  width: 150px;
+  height: 20px;
+  background-color:pink;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.container2{
+width: 300px;
+height: 270px;
+background-color: black;
+position: relative;
+bottom: 0;
+}
+.container3{
+width: 140px;
+height: 40px;
+background-color: red;
+position: relative;
+bottom: 90px;
+left: 230px;
+}
+h1{
+  width: 400px;
+  height: 100px;
+  padding: 20px;
+  position: fixed;
+  border: 2px dashed blue;
+  top: 170px;
+  left: 600px;
+  text-align: center;
+}
+
+
 
 
 

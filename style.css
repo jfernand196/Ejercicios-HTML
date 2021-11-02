@@ -54,7 +54,7 @@ h1 {color:white;
   text-align: center;} */
  /* ----------tarea 8 posicionamiento----------------------------------------
 -------------------------------------------------- */   
-.container{
+/* .container{
 width: 400px;
 height: 300px;
 position: relative;
@@ -108,12 +108,223 @@ h1{
   top: 170px;
   left: 600px;
   text-align: center;
+} */
+ /* ----------tarea 9 selectores CSS----------------------------------------
+-------------------------------------------------- */  
+
+/* .container{
+  width: 100%;
+  height: 150px;
+  background-color:midnightblue;
+  position: relative;
+  top: 0;
+  padding-top: 60px;
+  }
+  .container h1 {
+    color: white;
+    text-align: center;
+  }
+.container2{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+h2, h3, .container2{
+  color:black;
+  text-align: center;
+}
+.container3{
+  width: 100%;
+  height: 150px;
+  background-color:midnightblue;
+  position: relative;
+  bottom: 0;
+  padding-top: 40px;
+  }
+ .container3 p{
+   color: white;
+   text-align: center;
+ }
+a, .container3{
+   text-align: center;
+ }
+a:link {
+  color: chartreuse;
+} 
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: yellow;
+} */
+
+/* ----------tarea 10 sombras----------------------------------------
+-------------------------------------------------- */  
+
+
+/* .container{
+width: 400px;
+height: 300px;
+position: relative;
+background-color: cadetblue;
+box-shadow: 20px 20px 20px 10px gray;
+} 
+.box{
+  width: 90px;
+  height: 90px;
+  background-color:sandybrown;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.box2{
+  width: 20px;
+  height: 20px;
+  background-color:black;
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.box3{
+  width: 150px;
+  height: 20px;
+  background-color:pink;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.container2{
+width: 300px;
+height: 270px;
+background-color: black;
+position: relative;
+bottom: 0;
+box-shadow: 20px 20px 20px 10px gray;
+}
+.container3{
+width: 140px;
+height: 40px;
+background-color: red;
+position: relative;
+bottom: 90px;
+left: 230px;
+box-shadow: 10px 10px 20px 2px gray;
+}
+h1{
+  width: 400px;
+  height: 50px;
+  padding: 20px;
+  position: fixed;
+  border: 2px dashed blue;
+  top: 200px;
+  left: 600px;
+  text-align: center;
+  text-shadow: 1px 1px 20px palevioletred; 
+  box-shadow: 2px 10px 20px 10px gray;
+} */
+/* ----------tarea 11 Gradientes----------------------------------------
+-------------------------------------------------- */  
+/* .container{
+width: 400px;
+height: 300px;
+position: relative;
+background: linear-gradient(red, orange);
+} 
+.box{
+  width: 90px;
+  height: 90px;
+  background-image: radial-gradient(blue 20%, green 70%);
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.box2{
+  width: 20px;
+  height: 20px;
+  background-image: linear-gradient(pink, white);
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.box3{
+  width: 150px;
+  height: 20px;
+  background: linear-gradient(white , black);
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.container2{
+width: 300px;
+height: 270px;
+background: linear-gradient(yellow 10%, red 20%, blue 50%);
+position: relative;
+bottom: 0;
+}
+.container3{
+width: 140px;
+height: 40px;
+background: radial-gradient(blue, yellow, black );
+position: relative;
+bottom: 90px;
+left: 230px;
+}
+h1{
+  width: 400px;
+  height: 100px;
+  padding: 20px;
+  background: linear-gradient(pink, yellow);
+  position: fixed;
+  border: 2px dashed blue;
+  top: 170px;
+  left: 600px;
+  text-align: center;
+} */
+
+/* ----------tarea 12 Media Queris----------------------------------------
+-------------------------------------------------- */  
+
+body{
+    background-color: blue;
+    font-size: 12px;
+    color: white;
+    top: 180px;
+    position: relative;
+    text-align: center;
+    }
+
+@media (min-width: 768px) {
+  body {
+    background-color: black;
+    font-size: 16px;
+    color:yellow;
+    top: 180px;
+    position: relative; 
+    text-align: center; 
+  }
 }
 
+@media (min-width: 992px){
+  body {
+    background-color:white;
+    font-size: 20px;
+    color: red;
+    top: 180px;
+    position: relative; 
+    text-align: center;  
+  }
+}
+@media (min-width: 1200px){
+  body {
+    background-color: black;
+    font-size: 20px;
+    color: pink;
+    top: 180px;
+    position: relative;  
+    text-align: center;
+  }
+}
 
-
-
-
-
-    
  
